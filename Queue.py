@@ -1,7 +1,7 @@
 from webbrowser import Error
 
 
-class Queqe:
+class Queue:
     def __init__(self, n):
         self.tab=[]
         self.n = n

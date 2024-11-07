@@ -1,12 +1,12 @@
-from Queqe import Queqe
+from Queue import Queue
 
-queqe = Queqe(7)
+queue = Queue(10)
 
 
 for i in range(10):
     number = int(input("Podaj liczbe:"))
-    queqe.add(number)
+    queue.add(number)
 
 for i in range(10):
-    print(queqe.remove())
+    print(queue.remove())
 
